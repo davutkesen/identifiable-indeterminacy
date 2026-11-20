@@ -80,10 +80,12 @@ compares the files with these digests.
 `data/raw/` holds the six ARFF feature files of the electron-transport
 benchmark: the amino-acid composition (AAC), dipeptide composition (DPC) and
 400-dimensional PSSM summary of its cross-validation (`train`) and
-independent (`test`) sets, as used by the compilers of the benchmark. The
-amino-acid and dipeptide compositions of the other two benchmarks are
-computed from the sequences by `seqdata.py`, with the definitions that
-reproduce these files.
+independent (`test`) sets, as used by the compilers of the benchmark. In
+`et_tp_DPC_train.arff` every field `0.0` is written `0`, which keeps the file
+under the 25 MB that GitHub accepts through the browser; every value, and so
+every array the code reads, is unchanged. The amino-acid and dipeptide
+compositions of the other two benchmarks are computed from the sequences by
+`seqdata.py`, with the definitions that reproduce these files.
 
 `data/pmlb/` holds the 53 datasets of the Penn Machine Learning Benchmarks
 on which the regime analysis is evaluated, from
