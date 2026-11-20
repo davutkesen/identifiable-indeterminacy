@@ -1,0 +1,1252 @@
+{
+ "config": {
+  "k": 5,
+  "weights": [
+   0.3333333333333333,
+   0.3333333333333333,
+   0.3333333333333333
+  ],
+  "class_weighting": false
+ },
+ "points": [
+  {
+   "task": "AAC/d=5/r0",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2124,
+   "x": 0.12336221153948879,
+   "y": -0.0377715545610812,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=5/r1",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2124,
+   "x": 0.15095258655693286,
+   "y": -0.01567618135487192,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=5/r2",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2124,
+   "x": 0.14079273967957026,
+   "y": -0.00904837188338814,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=5/r3",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2124,
+   "x": 0.13808229292315502,
+   "y": 0.005588555914569193,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=5/r4",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2124,
+   "x": 0.17232865886416038,
+   "y": -0.022204984045164022,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=10/r0",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2124,
+   "x": 0.1894962173818101,
+   "y": -0.04884784185385364,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=10/r1",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2124,
+   "x": 0.18281599080373667,
+   "y": -0.04754434690346554,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=10/r2",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2124,
+   "x": 0.15780895048001967,
+   "y": -0.015152435151177554,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=10/r3",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2124,
+   "x": 0.2362484727328791,
+   "y": -0.06087529100048091,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=10/r4",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2124,
+   "x": 0.25464161963092685,
+   "y": -0.08695968113645595,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "AAC/d=20/r0",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2124,
+   "x": 0.2627831467178979,
+   "y": -0.10324395034623479,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=5/r0",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.218,
+   "x": 0.17665670085572785,
+   "y": -0.02170732126133179,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=5/r1",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.218,
+   "x": 0.16549069251048384,
+   "y": -0.025136720909748316,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=5/r2",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.218,
+   "x": 0.18409049735809543,
+   "y": -0.0606068758762159,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=5/r3",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.218,
+   "x": 0.09870573163729975,
+   "y": 0.07010781869606635,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=5/r4",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.218,
+   "x": 0.16787103908723447,
+   "y": -0.001789973068230551,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=10/r0",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.218,
+   "x": 0.17279293264248285,
+   "y": -0.0058566622975208356,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=10/r1",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.218,
+   "x": 0.15672340324100584,
+   "y": 0.03188727930699534,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=10/r2",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.218,
+   "x": 0.17532894589585835,
+   "y": -0.0121072398619216,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=10/r3",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.218,
+   "x": 0.15480442374307013,
+   "y": 0.07116942708738765,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=10/r4",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.218,
+   "x": 0.17590026267977954,
+   "y": 0.024218648089737876,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=20/r0",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.218,
+   "x": 0.1667263393984233,
+   "y": 0.03710265235056953,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=20/r1",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.218,
+   "x": 0.15620004637558474,
+   "y": 0.054289897218879335,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=20/r2",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.218,
+   "x": 0.15531176443788056,
+   "y": 0.06192158491023884,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=20/r3",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.218,
+   "x": 0.15964133479379575,
+   "y": 0.039589846263087036,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=20/r4",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.218,
+   "x": 0.12700859151695498,
+   "y": 0.0826165284356181,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=50/r0",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.218,
+   "x": 0.0769448025307304,
+   "y": 0.12185734559538468,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=50/r1",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.218,
+   "x": 0.1086985670781893,
+   "y": 0.09217071639452316,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=50/r2",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.218,
+   "x": 0.09204669157806826,
+   "y": 0.10290038492252955,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=50/r3",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.218,
+   "x": 0.0983857314079379,
+   "y": 0.11226230220811195,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=50/r4",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.218,
+   "x": 0.09861953473671414,
+   "y": 0.11313068205088368,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=100/r0",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.218,
+   "x": 0.050522652360740126,
+   "y": 0.1438733864664096,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=100/r1",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.218,
+   "x": 0.04393616755963938,
+   "y": 0.16710250572560068,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=100/r2",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.218,
+   "x": 0.05177728145583823,
+   "y": 0.15402410508451678,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=100/r3",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.218,
+   "x": 0.046279674092782885,
+   "y": 0.14811735518614702,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=100/r4",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.218,
+   "x": 0.05602511044905164,
+   "y": 0.08412699601869815,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=200/r0",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.218,
+   "x": 0.03914657710006175,
+   "y": 0.11951997916474992,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=200/r1",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.218,
+   "x": 0.04844650291435169,
+   "y": 0.14693039886971176,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=200/r2",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.218,
+   "x": 0.04195076766460776,
+   "y": 0.15550000527448674,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=200/r3",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.218,
+   "x": 0.024960604808690185,
+   "y": 0.1073472101501974,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=200/r4",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.218,
+   "x": 0.046743122781996625,
+   "y": 0.12046827518234164,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "DPC/d=400/r0",
+   "n": 2500,
+   "d": 400,
+   "pos_rate": 0.218,
+   "x": 0.04459912670159786,
+   "y": 0.09595232939342528,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=5/r0",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2332,
+   "x": 0.12036462015984022,
+   "y": 0.021768988667823064,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=5/r1",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2332,
+   "x": 0.146294900806035,
+   "y": -0.012425375369295333,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=5/r2",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2332,
+   "x": 0.10769722288103016,
+   "y": -0.01019497262091377,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=5/r3",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2332,
+   "x": 0.17028232318682243,
+   "y": 0.022081818908544326,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=5/r4",
+   "n": 2500,
+   "d": 5,
+   "pos_rate": 0.2332,
+   "x": 0.21148342462718142,
+   "y": 0.006092699576537168,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=10/r0",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2332,
+   "x": 0.20052566815702977,
+   "y": -0.0406598648681511,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=10/r1",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2332,
+   "x": 0.21689624669418917,
+   "y": -0.038636303526859574,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=10/r2",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2332,
+   "x": 0.19899006359196766,
+   "y": -0.05629265443820086,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=10/r3",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2332,
+   "x": 0.18122308999728795,
+   "y": -0.04155232601992324,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=10/r4",
+   "n": 2500,
+   "d": 10,
+   "pos_rate": 0.2332,
+   "x": 0.14200129814453188,
+   "y": 0.042539861877281794,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=20/r0",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2332,
+   "x": 0.21662793127145627,
+   "y": 0.016293356359746047,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=20/r1",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2332,
+   "x": 0.17493932241757296,
+   "y": 0.006362227409721884,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=20/r2",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2332,
+   "x": 0.20752379080838987,
+   "y": 0.05863401820030215,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=20/r3",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2332,
+   "x": 0.2573782042142562,
+   "y": -0.08887384994256704,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=20/r4",
+   "n": 2500,
+   "d": 20,
+   "pos_rate": 0.2332,
+   "x": 0.23371376638413846,
+   "y": -0.03578551209548771,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=50/r0",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.2332,
+   "x": 0.22948047803584515,
+   "y": 0.026204859816568688,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=50/r1",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.2332,
+   "x": 0.25852499950460045,
+   "y": 0.010789732886346473,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=50/r2",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.2332,
+   "x": 0.2673422614630952,
+   "y": -0.009611813794445312,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=50/r3",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.2332,
+   "x": 0.23722059376159876,
+   "y": 0.04347817688785952,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=50/r4",
+   "n": 2500,
+   "d": 50,
+   "pos_rate": 0.2332,
+   "x": 0.24771729140846324,
+   "y": 0.030738525906704006,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=100/r0",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.2332,
+   "x": 0.2588258334932295,
+   "y": -0.0008646446569469853,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=100/r1",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.2332,
+   "x": 0.2415564414963892,
+   "y": 0.028021603734076656,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=100/r2",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.2332,
+   "x": 0.21107125450062345,
+   "y": 0.07305975174259882,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=100/r3",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.2332,
+   "x": 0.25470997015861263,
+   "y": 0.009221052426170032,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=100/r4",
+   "n": 2500,
+   "d": 100,
+   "pos_rate": 0.2332,
+   "x": 0.2770951453800063,
+   "y": 0.01597926669589078,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=200/r0",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.2332,
+   "x": 0.27551708366743116,
+   "y": 0.036072144534673445,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=200/r1",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.2332,
+   "x": 0.2630760903585884,
+   "y": 0.05136487049584848,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=200/r2",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.2332,
+   "x": 0.2613948902687425,
+   "y": 0.06856398918963935,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=200/r3",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.2332,
+   "x": 0.26492268222195625,
+   "y": 0.06644075730786263,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=200/r4",
+   "n": 2500,
+   "d": 200,
+   "pos_rate": 0.2332,
+   "x": 0.2627869314703703,
+   "y": 0.0720609441585266,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "PSSM/d=400/r0",
+   "n": 2500,
+   "d": 400,
+   "pos_rate": 0.2332,
+   "x": 0.27469257596655383,
+   "y": 0.053881789460384244,
+   "source": "A transport-protein feature subsets"
+  },
+  {
+   "task": "digits-vs-rest-0",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.09905397885364496,
+   "x": 0.5263157894736843,
+   "y": -0.008314072087580579,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-1",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.10127991096271564,
+   "x": 0.5113449388620138,
+   "y": -0.03819987456193141,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-2",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.09849749582637729,
+   "x": 0.5064823937873507,
+   "y": -0.002526660355855285,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-3",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.1018363939899833,
+   "x": 0.5088289725568512,
+   "y": -0.04181038452303739,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-4",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.10072342793544797,
+   "x": 0.5157973233272185,
+   "y": -0.010647636114263634,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-5",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.10127991096271564,
+   "x": 0.5147462846944438,
+   "y": -0.03268395124299991,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-6",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.10072342793544797,
+   "x": 0.5263157894736843,
+   "y": -0.014758908224998072,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-7",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.09961046188091263,
+   "x": 0.514009843890349,
+   "y": -0.01979145677027283,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-8",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.09682804674457429,
+   "x": 0.49091286025469244,
+   "y": -0.08128835532832528,
+   "source": "B external real"
+  },
+  {
+   "task": "digits-vs-rest-9",
+   "n": 1797,
+   "d": 64,
+   "pos_rate": 0.1001669449081803,
+   "x": 0.5056106517458686,
+   "y": -0.06266747100030767,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-0",
+   "n": 178,
+   "d": 13,
+   "pos_rate": 0.33146067415730335,
+   "x": 0.575635004053468,
+   "y": -0.01666666666666668,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-0/imb",
+   "n": 149,
+   "d": 13,
+   "pos_rate": 0.20134228187919462,
+   "x": 0.5461947490860751,
+   "y": -0.013843351548269581,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-1",
+   "n": 178,
+   "d": 13,
+   "pos_rate": 0.398876404494382,
+   "x": 0.5775280447107073,
+   "y": 0.00032420375557632813,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-1/imb",
+   "n": 134,
+   "d": 13,
+   "pos_rate": 0.20149253731343283,
+   "x": 0.4740659158691945,
+   "y": -0.05887197597723911,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-2",
+   "n": 178,
+   "d": 13,
+   "pos_rate": 0.2696629213483146,
+   "x": 0.5404326923076923,
+   "y": 0.018028846153846145,
+   "source": "B external real"
+  },
+  {
+   "task": "wine-vs-rest-2/imb",
+   "n": 162,
+   "d": 13,
+   "pos_rate": 0.19753086419753085,
+   "x": 0.5404553807538882,
+   "y": -0.02596669743289585,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-0",
+   "n": 150,
+   "d": 4,
+   "pos_rate": 0.3333333333333333,
+   "x": 0.6031746031746033,
+   "y": 0.0,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-0/imb",
+   "n": 125,
+   "d": 4,
+   "pos_rate": 0.2,
+   "x": 0.5517241379310345,
+   "y": 0.0,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-1",
+   "n": 150,
+   "d": 4,
+   "pos_rate": 0.3333333333333333,
+   "x": 0.6031746031746033,
+   "y": -0.060037707390648544,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-1/imb",
+   "n": 125,
+   "d": 4,
+   "pos_rate": 0.2,
+   "x": 0.4043357238759538,
+   "y": -0.012380705714039117,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-2",
+   "n": 150,
+   "d": 4,
+   "pos_rate": 0.3333333333333333,
+   "x": 0.5648382173382174,
+   "y": 0.009275006298815835,
+   "source": "B external real"
+  },
+  {
+   "task": "iris-vs-rest-2/imb",
+   "n": 125,
+   "d": 4,
+   "pos_rate": 0.2,
+   "x": 0.533427968691469,
+   "y": -0.030476190476190473,
+   "source": "B external real"
+  },
+  {
+   "task": "breast-cancer",
+   "n": 569,
+   "d": 30,
+   "pos_rate": 0.6274165202108963,
+   "x": 0.5833438111433243,
+   "y": -0.020274615277145136,
+   "source": "B external real"
+  },
+  {
+   "task": "breast-cancer/imb",
+   "n": 265,
+   "d": 30,
+   "pos_rate": 0.2,
+   "x": 0.4327456121714018,
+   "y": 0.034542464890344404,
+   "source": "B external real"
+  },
+  {
+   "task": "synth/d=10/sep=0.2/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.12136650808376082,
+   "y": -0.02290352994284835,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=0.2/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20916666666666667,
+   "x": 0.21737800730681908,
+   "y": -0.13255654094904215,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=0.4/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.096730252211159,
+   "y": 0.028277985073901113,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=0.4/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.2842649527491656,
+   "y": -0.20293905830268344,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=0.7/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.21,
+   "x": 0.26274299629419123,
+   "y": 0.010344012740254241,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=0.7/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20583333333333334,
+   "x": 0.2943597746781664,
+   "y": -0.19176502724913555,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=1.0/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.29482509139377516,
+   "y": 0.024323042212525126,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=1.0/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20833333333333334,
+   "x": 0.37318106554369423,
+   "y": -0.15919217835772362,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=1.5/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20333333333333334,
+   "x": 0.4791376154772086,
+   "y": 0.044704912559884846,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=1.5/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20166666666666666,
+   "x": 0.4745152717213288,
+   "y": -0.19287456570637243,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=2.5/inf=0.25",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20583333333333334,
+   "x": 0.48074411520993054,
+   "y": 0.049265999826424545,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=10/sep=2.5/inf=0.75",
+   "n": 1200,
+   "d": 10,
+   "pos_rate": 0.20166666666666666,
+   "x": 0.5436245046794733,
+   "y": -0.030545779920811793,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.2/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.2025,
+   "x": 0.06575725040251511,
+   "y": -0.0325202306732581,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.2/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.19397147839385023,
+   "y": -0.14776162988101718,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.4/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20583333333333334,
+   "x": 0.07915245141677611,
+   "y": -0.02378488367646477,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.4/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.17198622112930786,
+   "y": -0.12625899924037753,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.7/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.14595170270716476,
+   "y": -0.09385918564256153,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=0.7/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20833333333333334,
+   "x": 0.2739169469847558,
+   "y": -0.21274900521749662,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=1.0/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20916666666666667,
+   "x": 0.16327303407590815,
+   "y": -0.04256953094482977,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=1.0/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20833333333333334,
+   "x": 0.3534639256759113,
+   "y": -0.2945622732710415,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=1.5/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.3006351759658581,
+   "y": 0.0356910835600082,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=1.5/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.2075,
+   "x": 0.4319837364969444,
+   "y": -0.2815215029577735,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=2.5/inf=0.25",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20333333333333334,
+   "x": 0.2745906242715003,
+   "y": -0.1512078560026778,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=50/sep=2.5/inf=0.75",
+   "n": 1200,
+   "d": 50,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.5357505668505389,
+   "y": -0.11751450343445231,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.2/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20083333333333334,
+   "x": 0.046047176283438664,
+   "y": -0.019965753984505397,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.2/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.205,
+   "x": 0.14205151364264298,
+   "y": -0.09751154200309986,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.4/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.21166666666666667,
+   "x": 0.02211128720492972,
+   "y": 0.01822482785945506,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.4/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.21,
+   "x": 0.21911598833877677,
+   "y": -0.1904376233211388,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.7/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.07050491487890664,
+   "y": -0.029616146807545596,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=0.7/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.2025,
+   "x": 0.25544914135695956,
+   "y": -0.2079649665412401,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=1.0/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20166666666666666,
+   "x": 0.13413761071440086,
+   "y": -0.07324154023928516,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=1.0/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20416666666666666,
+   "x": 0.2706580954253135,
+   "y": -0.228015794760557,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=1.5/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.21166666666666667,
+   "x": 0.1994300691000873,
+   "y": -0.07359198916515149,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=1.5/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.205,
+   "x": 0.41350923060937367,
+   "y": -0.3657166330945911,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=2.5/inf=0.25",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.4122490367595438,
+   "y": -0.13522679237320026,
+   "source": "C synthetic"
+  },
+  {
+   "task": "synth/d=200/sep=2.5/inf=0.75",
+   "n": 1200,
+   "d": 200,
+   "pos_rate": 0.20666666666666667,
+   "x": 0.5146477075578468,
+   "y": -0.40533511723044047,
+   "source": "C synthetic"
+  }
+ ],
+ "spearman": {
+  "A transport-protein feature subsets": {
+   "n": 73,
+   "rho": -0.5252992718746143,
+   "p": 1.8278813845932432e-06,
+   "ci95": [
+    -0.7095363697715982,
+    -0.2931673368749139
+   ],
+   "frac_help": 0.6438356164383562
+  },
+  "B external real": {
+   "n": 24,
+   "rho": 0.25038068897825827,
+   "p": 0.23798376734511217,
+   "ci95": [
+    -0.21870077487120693,
+    0.7006474875144687
+   ],
+   "frac_help": 0.16666666666666666
+  },
+  "C synthetic": {
+   "n": 36,
+   "rho": -0.33693693693693694,
+   "p": 0.04448810670242832,
+   "ci95": [
+    -0.6857211117826446,
+    0.024267316882255457
+   ],
+   "frac_help": 0.19444444444444445
+  },
+  "ALL": {
+   "n": 133,
+   "rho": -0.4243992016989672,
+   "p": 3.562442770270871e-07,
+   "ci95": [
+    -0.5554420345374952,
+    -0.27171161166841395
+   ],
+   "frac_help": 0.43609022556390975
+  }
+ }
+}

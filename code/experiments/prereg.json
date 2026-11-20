@@ -1,0 +1,382 @@
+{
+ "created_utc": "2026-11-13T05:25:13.188323+00:00",
+ "inputs": {
+  "commits": {
+   "et-gru": "6eb96e323fc37b2fc2e91332966f6217c8a1bd35",
+   "snare-cnn": "2e1288cd3b537aa709717225c1bc93c49f5965b1",
+   "vesicular-gru": "f5db3aaf03c760fd2b8762a3ed954523ba67bf69"
+  },
+  "sha256": {
+   "et-gru/electron.cv.fasta": "081cc3fcc7fc11ddf51477d26ae6867cbda65193543a81162f162c1724328bf8",
+   "et-gru/electron.ind.fasta": "c0b909d3d39298ec2d9988858040373b5025a02799a565838f4783008bf67e00",
+   "et-gru/transport.cv.fasta": "ecffd5f55c37f18f24550fcbc6a490058a7a184d0bd5044910f91fb2a663c118",
+   "et-gru/transport.ind.fasta": "5727194a80b3b49344e6e031387ccb192674bef66c91fde3cb29a7a2e37d83f3",
+   "snare-cnn/snare.fasta": "fba662696ce1e55ef564c4ab4a3a995ccc986394d59e4ff2e511a34ea8ab6b1e",
+   "snare-cnn/non_snare.fasta": "34ec31b8182c3018c9d018f7cb36cd3eab71d782f7ba6944013b10a617c2eea5",
+   "snare-cnn/snare.cv.list": "73a3be248ec52f42815a646ddd579aa6f70890048416a1486ed6b388bce0ee17",
+   "snare-cnn/snare.ind.list": "07fedb485fd51d08cca3ef16dfd2428051db3b629e2285b5473125537a60d1fc",
+   "snare-cnn/non_snare.cv.list": "cc284176e9af8866725587b7da1df3fe6c5fe4af34a37dfabc12df046e27ee6d",
+   "snare-cnn/non_snare.ind.list": "3f9a584a3820f82a92fccd5d0a85d367b6e7bf1adb195411ed2cce529782a036",
+   "snare-cnn/pssm.cv.csv": "f2405af34cda9a5f07ac8dda9e033f5be95f2e8f2af871cb1792687595e4ab65",
+   "snare-cnn/pssm.ind.csv": "bece238908ca2b2c3c7df3856f0cb7bcca9c59916bfe9720b545ea1408fe0256",
+   "vesicular-gru/vesicular.fasta.format": "a1b97542441fd5cc70e9649938264999b3749feabda8918138d6b7a887cd1881",
+   "vesicular-gru/membrane_no_vesicular.fasta": "340fb5ccf8828ef586fa22edf757c0708f32794f74bbda0f87fe53d4966e7ea6",
+   "vesicular-gru/vesicular.cv": "173669634b902e3a54d9dff006dde8e6dd29a2901ce6c363158a6c8b4d50ba49",
+   "vesicular-gru/vesicular.ind": "e40a79457f83b4fda5e56916a6f86f0d4de32693a9657092f34c27b66580798a",
+   "vesicular-gru/membrane.cv": "2743e9a7ffd0569a57335af2aa86106cca7d6a9419692e04ab93a82b7772195f",
+   "vesicular-gru/membrane.ind": "b652ec86e389b7d613ef4d024a52133bd8aedbc91e6aa23c8e0bc7486219c5fa"
+  }
+ },
+ "plan": [
+  "Primary outcome: for each benchmark and representation, the test macro F1 of the proposed construction minus that of the tuned plain rule, with a paired-bootstrap 95% interval (10,000 resamples of the test proteins).",
+  "Each prediction is scored against the sign of the observed difference; a difference whose interval contains zero confirms neither a predicted gain nor a predicted loss.",
+  "Secondary: the same difference against N-KNN and against the direct construction; the difference against the plain rule separately on test proteins below and above 30% identity to every training protein; the best trained classifier against the best nearest-neighbour rule.",
+  "Every configuration is the one recorded here; nothing is re-tuned after the test split is opened, and every outcome is reported whatever its direction."
+ ],
+ "benchmarks": {
+  "SNARE": {
+   "AAC": {
+    "n_train": 2878,
+    "train_positives": 644,
+    "configs": {
+     "knn": {
+      "k": 5,
+      "cw": false,
+      "cv_f1": 0.8281817532543517
+     },
+     "direct": {
+      "w": [
+       0.1,
+       0.9,
+       0.0
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.7567401045594955
+     },
+     "proposed": {
+      "w": [
+       0.9,
+       0.0,
+       0.1
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.7660328958551441
+     },
+     "nknn": {
+      "k": 3,
+      "cw": false,
+      "cv_f1": 0.8420730786181633
+     },
+     "nsknn": {
+      "delta": 4.0,
+      "k": 11,
+      "cw": false,
+      "cv_f1": 0.6629240850504161
+     },
+     "centroid": {},
+     "Logistic regression (L2)": {
+      "param": 0.1,
+      "cv_f1": 0.6696756987018502
+     },
+     "Linear SVM": {
+      "param": 1.0,
+      "cv_f1": 0.6728522286780592
+     },
+     "RBF SVM": {
+      "param": 10.0,
+      "cv_f1": 0.8174559003336306
+     },
+     "Random forest": {
+      "param": 10,
+      "cv_f1": 0.8111648510379592
+     },
+     "Gradient boosting": {
+      "param": 0.3,
+      "cv_f1": 0.8588715755699976
+     }
+    },
+    "x_cv": 0.39117079900764606,
+    "regime_prediction": "no gain",
+    "cv_difference_proposed_minus_knn": -0.06214885739920761,
+    "cv_sign_prediction": "no gain",
+    "seconds": 153.0
+   },
+   "DPC": {
+    "n_train": 2878,
+    "train_positives": 644,
+    "configs": {
+     "knn": {
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.8528980822271877
+     },
+     "direct": {
+      "w": [
+       0.5,
+       0.2,
+       0.3
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.7979596386348515
+     },
+     "proposed": {
+      "w": [
+       1.0,
+       0.0,
+       0.0
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.7963655885585281
+     },
+     "nknn": {
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.8454744659593413
+     },
+     "nsknn": {
+      "delta": 0.0009765625,
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.7158388023153363
+     },
+     "centroid": {},
+     "Logistic regression (L2)": {
+      "param": 0.01,
+      "cv_f1": 0.7466073083198581
+     },
+     "Linear SVM": {
+      "param": 0.001,
+      "cv_f1": 0.7365880956850128
+     },
+     "RBF SVM": {
+      "param": 10.0,
+      "cv_f1": 0.8679087247165741
+     },
+     "Random forest": {
+      "param": 10,
+      "cv_f1": 0.8008686237746003
+     },
+     "Gradient boosting": {
+      "param": 0.3,
+      "cv_f1": 0.8840438764360318
+     }
+    },
+    "x_cv": 0.415887127980482,
+    "regime_prediction": "no gain",
+    "cv_difference_proposed_minus_knn": -0.056532493668659534,
+    "cv_sign_prediction": "no gain",
+    "seconds": 1080.2
+   },
+   "PSSM": {
+    "n_train": 2878,
+    "train_positives": 644,
+    "configs": {
+     "knn": {
+      "k": 5,
+      "cw": false,
+      "cv_f1": 0.8465534027859366
+     },
+     "direct": {
+      "w": [
+       0.1,
+       0.9,
+       0.0
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.8134650259299333
+     },
+     "proposed": {
+      "w": [
+       0.9,
+       0.0,
+       0.1
+      ],
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.8615892797190972
+     },
+     "nknn": {
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.8606973693187016
+     },
+     "nsknn": {
+      "delta": 0.25,
+      "k": 21,
+      "cw": false,
+      "cv_f1": 0.7100735284552515
+     },
+     "centroid": {},
+     "Logistic regression (L2)": {
+      "param": 0.1,
+      "cv_f1": 0.7784343071002394
+     },
+     "Linear SVM": {
+      "param": 0.1,
+      "cv_f1": 0.7769589284763624
+     },
+     "RBF SVM": {
+      "param": 10.0,
+      "cv_f1": 0.8858267541658217
+     },
+     "Random forest": {
+      "param": 10,
+      "cv_f1": 0.8400292288436486
+     },
+     "Gradient boosting": {
+      "param": 0.3,
+      "cv_f1": 0.9026856501191369
+     }
+    },
+    "x_cv": 0.40954244853923094,
+    "regime_prediction": "no gain",
+    "cv_difference_proposed_minus_knn": 0.015035876933160552,
+    "cv_sign_prediction": "gain",
+    "seconds": 1294.5
+   }
+  },
+  "VES": {
+   "AAC": {
+    "n_train": 9787,
+    "train_positives": 2214,
+    "configs": {
+     "knn": {
+      "k": 3,
+      "cw": false,
+      "cv_f1": 0.6147639025934658
+     },
+     "direct": {
+      "w": [
+       0.2,
+       0.3,
+       0.5
+      ],
+      "k": 5,
+      "cw": true,
+      "cv_f1": 0.5602034656665713
+     },
+     "proposed": {
+      "w": [
+       0.8,
+       0.2,
+       0.0
+      ],
+      "k": 3,
+      "cw": false,
+      "cv_f1": 0.5708418967949823
+     },
+     "nknn": {
+      "k": 9,
+      "cw": false,
+      "cv_f1": 0.6080530258505531
+     },
+     "nsknn": {
+      "delta": 1.0,
+      "k": 5,
+      "cw": false,
+      "cv_f1": 0.5807922036267118
+     },
+     "centroid": {},
+     "Logistic regression (L2)": {
+      "param": 0.1,
+      "cv_f1": 0.5892018121510164
+     },
+     "Linear SVM": {
+      "param": 1.0,
+      "cv_f1": 0.5895925155758167
+     },
+     "RBF SVM": {
+      "param": 1.0,
+      "cv_f1": 0.6266528093621135
+     },
+     "Random forest": {
+      "param": 10,
+      "cv_f1": 0.6363633870796639
+     },
+     "Gradient boosting": {
+      "param": 0.1,
+      "cv_f1": 0.6354627165965425
+     }
+    },
+    "x_cv": 0.17853118793320066,
+    "regime_prediction": "none",
+    "cv_difference_proposed_minus_knn": -0.04392200579848349,
+    "cv_sign_prediction": "no gain",
+    "seconds": 373.0
+   },
+   "DPC": {
+    "n_train": 9787,
+    "train_positives": 2214,
+    "configs": {
+     "knn": {
+      "k": 5,
+      "cw": false,
+      "cv_f1": 0.5709503744236051
+     },
+     "direct": {
+      "w": [
+       0.4,
+       0.5,
+       0.1
+      ],
+      "k": 5,
+      "cw": true,
+      "cv_f1": 0.5652055921314089
+     },
+     "proposed": {
+      "w": [
+       0.9,
+       0.1,
+       0.0
+      ],
+      "k": 9,
+      "cw": true,
+      "cv_f1": 0.5799289353205703
+     },
+     "nknn": {
+      "k": 5,
+      "cw": false,
+      "cv_f1": 0.5769227836784513
+     },
+     "nsknn": {
+      "delta": 0.0009765625,
+      "k": 1,
+      "cw": false,
+      "cv_f1": 0.5355647125818498
+     },
+     "centroid": {},
+     "Logistic regression (L2)": {
+      "param": 1.0,
+      "cv_f1": 0.597115215656258
+     },
+     "Linear SVM": {
+      "param": 1.0,
+      "cv_f1": 0.5950772431449235
+     },
+     "RBF SVM": {
+      "param": 1.0,
+      "cv_f1": 0.6331873673644983
+     },
+     "Random forest": {
+      "param": 10,
+      "cv_f1": 0.6206005293069762
+     },
+     "Gradient boosting": {
+      "param": 0.03,
+      "cv_f1": 0.6462037391546501
+     }
+    },
+    "x_cv": 0.13471765976333994,
+    "regime_prediction": "none",
+    "cv_difference_proposed_minus_knn": 0.008978560896965249,
+    "cv_sign_prediction": "gain",
+    "seconds": 1309.0
+   }
+  }
+ }
+}

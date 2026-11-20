@@ -1,0 +1,27 @@
+{
+ "commits": {
+  "et-gru": "6eb96e323fc37b2fc2e91332966f6217c8a1bd35",
+  "snare-cnn": "2e1288cd3b537aa709717225c1bc93c49f5965b1",
+  "vesicular-gru": "f5db3aaf03c760fd2b8762a3ed954523ba67bf69"
+ },
+ "sha256": {
+  "et-gru/electron.cv.fasta": "081cc3fcc7fc11ddf51477d26ae6867cbda65193543a81162f162c1724328bf8",
+  "et-gru/electron.ind.fasta": "c0b909d3d39298ec2d9988858040373b5025a02799a565838f4783008bf67e00",
+  "et-gru/transport.cv.fasta": "ecffd5f55c37f18f24550fcbc6a490058a7a184d0bd5044910f91fb2a663c118",
+  "et-gru/transport.ind.fasta": "5727194a80b3b49344e6e031387ccb192674bef66c91fde3cb29a7a2e37d83f3",
+  "snare-cnn/snare.fasta": "fba662696ce1e55ef564c4ab4a3a995ccc986394d59e4ff2e511a34ea8ab6b1e",
+  "snare-cnn/non_snare.fasta": "34ec31b8182c3018c9d018f7cb36cd3eab71d782f7ba6944013b10a617c2eea5",
+  "snare-cnn/snare.cv.list": "73a3be248ec52f42815a646ddd579aa6f70890048416a1486ed6b388bce0ee17",
+  "snare-cnn/snare.ind.list": "07fedb485fd51d08cca3ef16dfd2428051db3b629e2285b5473125537a60d1fc",
+  "snare-cnn/non_snare.cv.list": "cc284176e9af8866725587b7da1df3fe6c5fe4af34a37dfabc12df046e27ee6d",
+  "snare-cnn/non_snare.ind.list": "3f9a584a3820f82a92fccd5d0a85d367b6e7bf1adb195411ed2cce529782a036",
+  "snare-cnn/pssm.cv.csv": "f2405af34cda9a5f07ac8dda9e033f5be95f2e8f2af871cb1792687595e4ab65",
+  "snare-cnn/pssm.ind.csv": "bece238908ca2b2c3c7df3856f0cb7bcca9c59916bfe9720b545ea1408fe0256",
+  "vesicular-gru/vesicular.fasta.format": "a1b97542441fd5cc70e9649938264999b3749feabda8918138d6b7a887cd1881",
+  "vesicular-gru/membrane_no_vesicular.fasta": "340fb5ccf8828ef586fa22edf757c0708f32794f74bbda0f87fe53d4966e7ea6",
+  "vesicular-gru/vesicular.cv": "173669634b902e3a54d9dff006dde8e6dd29a2901ce6c363158a6c8b4d50ba49",
+  "vesicular-gru/vesicular.ind": "e40a79457f83b4fda5e56916a6f86f0d4de32693a9657092f34c27b66580798a",
+  "vesicular-gru/membrane.cv": "2743e9a7ffd0569a57335af2aa86106cca7d6a9419692e04ab93a82b7772195f",
+  "vesicular-gru/membrane.ind": "b652ec86e389b7d613ef4d024a52133bd8aedbc91e6aa23c8e0bc7486219c5fa"
+ }
+}
